@@ -11,10 +11,13 @@
 - ###pip error: Unknown or unsupported command 'install'
   This error will appear when **Perl** is installed.  
   To check:  
-  `C:\>where pip`  
+  ```
+  C:\>where pip
+  ```
   This will potentially output the following:  
   ```
   C:\strawberry\perl\bin\pip
   C:\strawberry\perl\bin\pip.bat
   ```
-  
+  This error is because the system is finding pip.bat before it finds pip.exe.  
+  You can solve this problem without removing Strawberry Perl or type the whole path.Move to this `C:\Python2.7\Scripts` directory,then use `pip` command.  
