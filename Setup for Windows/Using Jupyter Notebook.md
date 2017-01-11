@@ -23,7 +23,9 @@ There are two ways to install **Jupyter Notebook**:
 ###Running Jupyter Notebook
  In the command line, type:  
  `jupyter notebook`  
- To change the default directory:  
+ Select `new` and `Python 2` or `Python 3`  
+ 
+ ###Change the default directory  
  
  
 [Reference](https://jupyter.readthedocs.io/en/latest/running.html#running)
