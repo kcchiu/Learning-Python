@@ -6,7 +6,7 @@
   sudo easy_install pip
   ```
 ##2.Installing Microsoft Visual C++ Complier for Python 2.7
-  Reference to [this link](https://www.microsoft.com/en-us/download/details.aspx?id=44266) to download.
+  Reference to [this link](https://www.microsoft.com/en-us/download/details.aspx?id=44266) to download and install.
 ##3.Failure in installing matplotlib with pip
   When using pip to install **matplotlib**,
   ```
