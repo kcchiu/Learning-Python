@@ -32,7 +32,7 @@
   The most common missing is `freetype` and `libpng`.  
   
   Building **matplotlib** requires `libpng` and `freetype` as well, which isn't a python library, so `pip` doesn't handle installing them.  
-  To install `freetype` and/or other missing extensions,
+  To install `freetype` and/or other missing extensions, use `brew`,
   ```
   brew install libpng freetype pkg-config
   brew link libpng freetype
