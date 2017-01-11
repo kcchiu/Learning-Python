@@ -1,6 +1,6 @@
 #Issues and Solutions  
 
-###1.installing numpy and scipy for 32-bit Python
+###1.Installing numpy and scipy for 32-bit Python
   The numpy package have to be installed before scipy.  
   If you are using the 32-bit version of python on Windows, the **numpy+MKL** version have to be used.  
   Refer to [this link](http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy) to download **numpy+MKL**.  
