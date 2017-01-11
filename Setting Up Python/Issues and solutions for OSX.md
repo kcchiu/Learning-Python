@@ -35,10 +35,16 @@
   To install `freetype` and/or other missing extensions, use `brew`,
   ```
   brew install libpng freetype pkg-config
+  ```
+  Link them,
+  ```
   brew link libpng freetype
+  ```
+  Install `matplotlib` again,
+  ```
   sudo pip install matplotlib
   ```
-  `matplotlib` should be able to install successfully. If not, try installing a older version of `matplotlib`,
+  `matplotlib` should be able to install successfully. If not, try installing an older version of `matplotlib`,
   ```
   pip install matplotlib==1.4.0
   ```
