@@ -19,4 +19,7 @@ There are two ways to install **Jupyter Notebook**:
   ```
   pip install jupyter
   ```
-  
+  [Reference](http://jupyter.org/install.html)
+###Running Jupyter Notebook
+
+[Reference](https://jupyter.readthedocs.io/en/latest/running.html#running)
