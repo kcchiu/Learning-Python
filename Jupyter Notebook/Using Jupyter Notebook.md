@@ -43,8 +43,7 @@ There are two ways to install **Jupyter Notebook**:
   See links for more methods: [Reference](http://stackoverflow.com/questions/35254852/how-to-change-jupyter-start-folder) [Reference](http://stackoverflow.com/questions/15680463/change-ipython-working-directory)  
 
 ###4.Mathematics style equations
-  **Jupyter Notebook** supports using LaTex notations for entering equations. Just add $ before and after the equation for inline mathematics, and $$ for displayed mathematics.  
-  For showing  
+  **Jupyter Notebook** supports using LaTex notations for entering equations. Just add $ before and after the equation for inline mathematics, and $$ for displayed mathematics. For showing  
   ![](http://latex.codecogs.com/png.latex?c=%5csqrt%7ba%5e2%2bb%5e2%7d)
   ```
   $c = \sqrt{a^2 + b^2}$
