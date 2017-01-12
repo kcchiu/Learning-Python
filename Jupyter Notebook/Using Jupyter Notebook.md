@@ -1,7 +1,8 @@
 ![](http://jupyter.org/assets/nav_logo.svg)  
 ##Using **Jupyter Notebook**  
 **Jupyter Notebook** is a very handy tool for documenting the learning process of python. It supports **Markdown (.md)** editing style.  
-It is interactive, and automatically records the output of a python code on the notebook.  
+
+It is _interactive_, and automatically records the output of a python code on the notebook.  
 It can contain both code and rich text elements, such as figures, links, equations, ... Because of the mix of code and text elements, these documents are the ideal place to bring together an analysis description and its results as well as they can be executed perform the data analysis in real time.  
 [http://jupyter.org/](http://jupyter.org/)  
 
