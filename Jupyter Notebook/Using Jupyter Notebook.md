@@ -22,10 +22,22 @@ There are two ways to install **Jupyter Notebook**:
   [Reference](http://jupyter.org/install.html)
 ###Running Jupyter Notebook
  In the command line, type:  
- `jupyter notebook`  
+ ```
+ jupyter notebook
+ ```
  Select `new` and `Python 2` or `Python 3`  
  
  [Reference](https://jupyter.readthedocs.io/en/latest/running.html#running)  
  
 ###Change the default directory  
- 
+  In command line, type:
+  ```
+  jupyter notebook --generate-config
+  ```
+  This generates the config file to `C:\Users\username\.jupyter\jupyter_notebook_config`.  
+  Locate and open `jupyter_notebook_config`, and unmark `#c.NotebookApp.notebook_dir = ''`,  
+  Add in the desired path `#c.NotebookApp.notebook_dir = 'my path'`.  
+  
+  **Be sure to use backslash `\` instead of forwardslash `/`**.
+  
+  See links for more methods: [Reference](http://stackoverflow.com/questions/35254852/how-to-change-jupyter-start-folder) [Reference](http://stackoverflow.com/questions/15680463/change-ipython-working-directory)
