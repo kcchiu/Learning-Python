@@ -25,7 +25,7 @@ There are two ways to install **Jupyter Notebook**:
  ```
  jupyter notebook
  ```
- Select `new` and `Python 2` or `Python 3`  
+ Select `new` and `Python 2` or `Python 3` to start editing  
  
  [Reference](https://jupyter.readthedocs.io/en/latest/running.html#running)  
  
