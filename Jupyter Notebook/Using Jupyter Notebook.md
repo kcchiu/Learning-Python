@@ -7,9 +7,9 @@ It can contain both code and rich text elements, such as figures, links, equatio
 
 ###Installation  
 There are two ways to install **Jupyter Notebook**:  
-####1. Install using **Anaconda** and **Conda**  
+####Option 1: Install using **Anaconda** and **Conda**  
   For new users, we highly recommend [installing Anaconda](https://www.continuum.io/downloads). Anaconda conveniently installs Python, the Jupyter Notebook, and other commonly used packages for scientific computing and data science.  
-####2. Alternative for experienced Python users: Installing Jupyter with pip  
+####Option 2: Alternative for experienced Python users: Installing Jupyter with pip  
   As an existing Python user, you may wish to install Jupyter using Python’s package manager, pip, instead of Anaconda.  
   First, ensure that you have the latest pip; older versions may have trouble with some dependencies:  
   ```
