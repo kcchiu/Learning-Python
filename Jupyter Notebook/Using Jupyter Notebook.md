@@ -1,12 +1,12 @@
 ![](http://jupyter.org/assets/nav_logo.svg)  
-##Using **Jupyter Notebook**  
+#Using **Jupyter Notebook**  
 **Jupyter Notebook** is a very handy tool for documenting the learning process of python. It supports **Markdown (.md)** editing style.  
 
 It is _interactive_, and automatically records the output of a python code on the notebook.  
 It can contain both code and rich text elements, such as figures, links, equations, ... Because of the mix of code and text elements, these documents are the ideal place to bring together an analysis description and its results as well as they can be executed perform the data analysis in real time.  
 [http://jupyter.org/](http://jupyter.org/)  
 
-###1.Installation  
+##1.Installation  
 There are two ways to install **Jupyter Notebook**:  
 ####Option 1: Install using **Anaconda** and **Conda**  
   For new users, we highly recommend [installing Anaconda](https://www.continuum.io/downloads). Anaconda conveniently installs Python, the Jupyter Notebook, and other commonly used packages for scientific computing and data science.  
@@ -21,7 +21,7 @@ There are two ways to install **Jupyter Notebook**:
   pip install jupyter
   ```
   [Reference](http://jupyter.org/install.html)
-###2.Running Jupyter Notebook
+##2.Running Jupyter Notebook
  In the command line, type:  
  ```
  jupyter notebook
@@ -30,7 +30,7 @@ There are two ways to install **Jupyter Notebook**:
  
  [Reference](https://jupyter.readthedocs.io/en/latest/running.html#running)  
  
-###3.Change the default directory  
+##3.Change the default directory  
   In command line, type:
   ```
   jupyter notebook --generate-config
@@ -43,7 +43,7 @@ There are two ways to install **Jupyter Notebook**:
   
   See links for more methods: [Reference](http://stackoverflow.com/questions/35254852/how-to-change-jupyter-start-folder) [Reference](http://stackoverflow.com/questions/15680463/change-ipython-working-directory)  
 
-###4.Mathematics style equations
+##4.Mathematics style equations
   **Jupyter Notebook** supports using LaTex notations for entering equations. Just add `$` before and after the equation for _inline_ mathematics, and `$$` for _displayed_ mathematics. For showing  
   ![](http://latex.codecogs.com/png.latex?c=%5csqrt%7ba%5e2%2bb%5e2%7d)
   ```
