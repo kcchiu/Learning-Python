@@ -6,6 +6,9 @@ It is _interactive_, and automatically records the output of a python code on th
 It can contain both code and rich text elements, such as figures, links, equations, ... Because of the mix of code and text elements, these documents are the ideal place to bring together an analysis description and its results as well as they can be executed perform the data analysis in real time.  
 [http://jupyter.org/](http://jupyter.org/)  
 
+**IPython.display** can also be very helpful when editing **Jupyter Notebook**.  
+[IPython's Rich Display System](http://nbviewer.jupyter.org/github/ipython/ipython/blob/2.x/examples/Notebook/Display%20System.ipynb)
+
 ##1.Installation  
 There are two ways to install **Jupyter Notebook**:  
 ####Option 1: Install using **Anaconda** and **Conda**  
