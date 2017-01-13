@@ -42,12 +42,12 @@ There are two ways to install **Jupyter Notebook**:
   
   _**Note:**For Mac OSX, in command line use_ 
   ```
-  defaults write com.apple.finder AppleShowAllFiles NO
+  defaults write com.apple.finder AppleShowAllFiles YES
   killall Finder
   ```
   _to show hidden folders (.jupyter)._
   ```
-  defaults write com.apple.finder AppleShowAllFiles YES
+  defaults write com.apple.finder AppleShowAllFiles NO
   killall Finder
   ```
   _to return back to normal._  
