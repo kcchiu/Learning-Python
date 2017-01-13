@@ -40,17 +40,17 @@ There are two ways to install **Jupyter Notebook**:
   ```
   This generates the config file to `C:\Users\username\.jupyter\jupyter_notebook_config`.  
   
-  **_Note:**For Mac OSX, in command line use 
+  **_Note:**For Mac OSX, in command line use_ 
   ```
   defaults write com.apple.finder AppleShowAllFiles NO
   killall Finder
   ```
-  to show hidden folders (.jupyter).
+  _to show hidden folders (.jupyter)._
   ```
   defaults write com.apple.finder AppleShowAllFiles YES
   killall Finder
   ```
-  to return back to normal._  
+  _to return back to normal._  
   
   Locate and open `jupyter_notebook_config`, and unmark `#c.NotebookApp.notebook_dir = ''`,  
   Add in the desired path `#c.NotebookApp.notebook_dir = 'my path'`.  
