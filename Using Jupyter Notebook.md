@@ -70,3 +70,8 @@ There are two ways to install **Jupyter Notebook**:
   $$c = \sqrt{a^2 + b^2}$$
   ```
   For more examples using LaTex notations on **Jupyter Notebook**, [look here](http://nbviewer.jupyter.org/github/ipython/ipython/blob/2.x/examples/Notebook/Display%20System.ipynb#LaTeX).
+<<<<<<< HEAD
+=======
+
+##5.Moving files around
+>>>>>>> parent of 8adf1fb... Update Using Jupyter Notebook.md
