@@ -74,4 +74,13 @@ There are two ways to install **Jupyter Notebook**:
 =======
 
 ##5.Moving files around
+<<<<<<< HEAD
 >>>>>>> parent of 8adf1fb... Update Using Jupyter Notebook.md
+=======
+To move a file, say `myfile.ipynb`, from one directry to another:  
+First, make sure the file is not running. If so, check the file and press `Shutdown`.  
+Second, press `Rename`, and add the destination path in front of the file name:  
+```
+C:\\Users\\charlie_chiu\\GitHub_Repo\\Learning-Python\\myfile.ipynb
+```
+>>>>>>> 8adf1fb2dfe0b668ec98af80ebf66ccca16de6d2
