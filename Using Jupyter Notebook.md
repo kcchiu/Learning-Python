@@ -72,3 +72,9 @@ There are two ways to install **Jupyter Notebook**:
   For more examples using LaTex notations on **Jupyter Notebook**, [look here](http://nbviewer.jupyter.org/github/ipython/ipython/blob/2.x/examples/Notebook/Display%20System.ipynb#LaTeX).
 
 ##5.Moving files around
+To move a file, say `myfile.ipynb`, from one directry to another:  
+First, make sure the file is not running. If so, check the file and press `Shutdown`.  
+Second, press `Rename`, and add the destination path in front of the file name:  
+```
+C:\\Users\\charlie_chiu\\GitHub_Repo\\Learning-Python\\myfile.ipynb
+```
