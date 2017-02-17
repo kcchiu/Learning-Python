@@ -73,6 +73,10 @@ There are two ways to install **Jupyter Notebook**:
 
 ##5.Moving files around
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 412970d98a58e909efc49f09b8370431bbbe5f67
 To move a file, say `myfile.ipynb`, from one directry to another:  
 First, make sure the file is not running. If so, check the file and press `Shutdown`.  
 Second, press `Rename`, and add the destination path in front of the file name:  
