@@ -40,7 +40,7 @@ There are two ways to install **Jupyter Notebook**:
   ```
   This generates the config file to `C:\Users\username\.jupyter\jupyter_notebook_config`.  
   
-  _**Note:**For Mac OSX, in command line use_ 
+  _ **Note:** For Mac OSX, in command line use_ 
   ```
   defaults write com.apple.finder AppleShowAllFiles YES
   killall Finder
