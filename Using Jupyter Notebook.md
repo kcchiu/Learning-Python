@@ -1,5 +1,5 @@
 ![](http://jupyter.org/assets/nav_logo.svg)  
-#Using **Jupyter Notebook**  
+# Using **Jupyter Notebook**  
 **Jupyter Notebook** is a very handy tool for documenting the learning process of python. It supports **Markdown (.md)** editing style.  
 
 It is _interactive_, and automatically records the output of a python code on the notebook.  
@@ -9,11 +9,11 @@ It can contain both code and rich text elements, such as figures, links, equatio
 **IPython.display** can also be very helpful when editing **Jupyter Notebook**.  
 [IPython's Rich Display System](http://nbviewer.jupyter.org/github/ipython/ipython/blob/2.x/examples/Notebook/Display%20System.ipynb)
 
-##1.Installation  
+## 1.Installation  
 There are two ways to install **Jupyter Notebook**:  
-####Option 1: Install using **Anaconda** and **Conda**  
+#### Option 1: Install using **Anaconda** and **Conda**  
   For new users, we highly recommend [installing Anaconda](https://www.continuum.io/downloads). Anaconda conveniently installs Python, the Jupyter Notebook, and other commonly used packages for scientific computing and data science.  
-####Option 2: Alternative for experienced Python users: Installing Jupyter with pip  
+#### Option 2: Alternative for experienced Python users: Installing Jupyter with pip  
   As an existing Python user, you may wish to install Jupyter using Python’s package manager, pip, instead of Anaconda.  
   First, ensure that you have the latest pip; older versions may have trouble with some dependencies:  
   ```
@@ -24,7 +24,7 @@ There are two ways to install **Jupyter Notebook**:
   pip install jupyter
   ```
   [Reference](http://jupyter.org/install.html)
-##2.Running Jupyter Notebook
+## 2.Running Jupyter Notebook
  In the command line, type:  
  ```
  jupyter notebook
@@ -33,7 +33,7 @@ There are two ways to install **Jupyter Notebook**:
  
  [Reference](https://jupyter.readthedocs.io/en/latest/running.html#running)  
  
-##3.Change the default directory  
+## 3.Change the default directory  
   In command line, type:
   ```
   jupyter notebook --generate-config
@@ -59,7 +59,7 @@ There are two ways to install **Jupyter Notebook**:
   
   See links for more methods: [Reference](http://stackoverflow.com/questions/35254852/how-to-change-jupyter-start-folder) [Reference](http://stackoverflow.com/questions/15680463/change-ipython-working-directory)  
 
-##4.Mathematics style equations
+## 4.Mathematics style equations
   **Jupyter Notebook** supports using LaTex notations for entering equations. Just add `$` before and after the equation for _inline_ mathematics, and `$$` for _displayed_ mathematics. For showing  
   ![](http://latex.codecogs.com/png.latex?c=%5csqrt%7ba%5e2%2bb%5e2%7d)
   ```
@@ -71,7 +71,7 @@ There are two ways to install **Jupyter Notebook**:
   ```
   For more examples using LaTex notations on **Jupyter Notebook**, [look here](http://nbviewer.jupyter.org/github/ipython/ipython/blob/2.x/examples/Notebook/Display%20System.ipynb#LaTeX).
 
-##5.Moving files around
+## 5.Moving files around
 
 To move a file, say `myfile.ipynb`, from one directry to another:  
 First, make sure the file is not running. If so, check the file and press `Shutdown`.  
