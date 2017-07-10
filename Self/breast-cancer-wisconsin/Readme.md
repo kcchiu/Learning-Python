@@ -1,7 +1,7 @@
 ## Notebook Summary
 ### Load data and data preprocessing
 - Load csv data with Pandas `pd.read_csv`.  
-- Assinging column names (headers) with `pd.read_csv('Data/wdbc.data', **names=headers**)`.  
+- Assinging column names (headers) with `pd.read_csv('Data/wdbc.data', names=headers)`.  
 - One-hot-encoder of string labels (Diagnosis -> Diagnosis_B and Diagnosis_M) with `pd.get_dummies(df[df.columns])`.  
 ### Data visualization
 - Plotting pair grid plot with Seaborn `sns.PairGrid(df, vars=df.columns[1:11], hue="Diagnosis_B", palette={0:'r', 1:'b'})`.  
@@ -25,4 +25,5 @@ for l, c in zip(np.unique(df["Diagnosis_B"]), ['r','b']):
 - Check if linearly separable with Kernel PCA of kernels: `'linear', 'poly', 'rbf', 'cosine'`.  
 - Feature scaling (standardization).
 - Classification with 2D and Multiple dimension perceptron.  
-- Classification with Logistic regression.
+- Classification with Logistic regression.  
+- Classification with Nearest Neighbors, Linear SVM, RBF SVM, Gaussian Process, Decision Tree, Random Forest, Neural Net, AdaBoost, Naive Bayes, QDA
