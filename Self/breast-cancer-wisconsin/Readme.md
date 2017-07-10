@@ -25,4 +25,5 @@ for l, c in zip(np.unique(df["Diagnosis_B"]), ['r','b']):
 - Check if linearly separable with Kernel PCA of kernels: `'linear', 'poly', 'rbf', 'cosine'`.  
 - Feature scaling (standardization).
 - Classification with 2D and Multiple dimension perceptron.  
-- Classification with Logistic regression.
+- Classification with Logistic regression.  
+- Classification with Nearest Neighbors, Linear SVM, RBF SVM, Gaussian Process, Decision Tree, Random Forest, Neural Net, AdaBoost, Naive Bayes, QDA
