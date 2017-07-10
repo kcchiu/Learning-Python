@@ -12,8 +12,8 @@ X = pd.concat([df["texture_WS"], df["concave_points_WS"]], axis=1)
 plt.scatter(X['texture_WS'][y==l],
 X['concave_points_WS'][y==l],
 c=c, label=l, marker=m, alpha=0.5)
-```.
-- 3D scatterplot with categorization:
+```.  
+- 3D scatterplot with categorization:  
 ```python
 fig = plt.figure(dpi=100)
 ax = fig.add_subplot(111, projection='3d')
