@@ -8,7 +8,6 @@ ip = Imputer(missing_values='NaN', strategy='mean', axis=0)
 X = ip.fit_transform(df)
 ```  
 - Merge two different df into one with `pd.concat([df, temp], axis=1)`.
-## Data visualization
 ## Data analysis
 - One-hot-encoding with `keras` `y_train_ohe = to_categorical(y_train)`.  
 - Using `keras` to build multilayer perceptron algorithm. 
