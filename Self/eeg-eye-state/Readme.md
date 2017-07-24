@@ -40,4 +40,4 @@ model.fit(X_train,
           
 y_test_pred = model.predict_classes(X_test, verbose=0)
 ```
-- Remenber to use `keras'` `to_categorical` to transform `y` before feeding it to `model.fit`.
+- Remenber to use `keras'` `to_categorical` to transform `y` before feeding it into `model.fit`.
